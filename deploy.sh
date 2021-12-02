@@ -1,17 +1,17 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-DIR="themes/showcase"
+# DIR="themes/showcase"
 
-if [ ! -d $DIR ]; then 
-  git clone https://github.com/apvarun/showcase-hugo-theme.git themes/showcase
-fi
+# if [ ! -d $DIR ]; then 
+#   git clone https://github.com/apvarun/showcase-hugo-theme.git themes/showcase
+# fi
 
-if [ "$(ls -A $DIR)" ]; then
-    echo "$DIR is not Empty"
-else
-    https://github.com/apvarun/showcase-hugo-theme.git themes/showcase
-fi
+# if [ "$(ls -A $DIR)" ]; then
+#     echo "$DIR is not Empty"
+# else
+#     https://github.com/apvarun/showcase-hugo-theme.git themes/showcase
+# fi
 
 
 git config --local user.name Melonvin
